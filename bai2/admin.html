@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Admin</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <h3>Admin Panel</h3>
+        <ul class="menu">
+            <li><a href="#" class="active">Dashboard</a></li>
+            <li><a href="#">Người dùng</a></li>
+            <li><a href="#">Sản phẩm</a></li>
+            <li><a href="#">Đơn hàng</a></li>
+            <li><a href="#">Thống kê</a></li>
+            <li><a href="#">Cài đặt</a></li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+        <header class="header">
+            <h2>Dashboard</h2>
+            <p>Tổng quan hệ thống quản trị</p>
+        </header>
+
+        <section class="stats">
+            <div class="stat-card">
+                <div class="stat-number">1,234</div>
+                <div class="stat-label">Tổng người dùng</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">567</div>
+                <div class="stat-label">Sản phẩm</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">890</div>
+                <div class="stat-label">Đơn hàng</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">12,345</div>
+                <div class="stat-label">Doanh thu</div>
+            </div>
+        </section>
+
+        <!-- Data Table -->
+        <section class="data-section">
+            <div class="section-header">
+                <h4>Người dùng gần đây</h4>
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tên</th>
+                            <th>Email</th>
+                            <th>Ngày tham gia</th>
+                            <th>Trạng thái</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>001</td>
+                            <td>Nguyễn Văn A</td>
+                            <td>nguyenvana@email.com</td>
+                            <td>2025-01-15</td>
+                            <td><span class="badge badge-success">Hoạt động</span></td>
+                        </tr>
+                        <tr>
+                            <td>002</td>
+                            <td>Trần Thị B</td>
+                            <td>tranthib@email.com</td>
+                            <td>2025-01-14</td>
+                            <td><span class="badge badge-warning">Chờ duyệt</span></td>
+                        </tr>
+                        <tr>
+                            <td>003</td>
+                            <td>Lê Văn C</td>
+                            <td>levanc@email.com</td>
+                            <td>2025-01-13</td>
+                            <td><span class="badge badge-success">Hoạt động</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
